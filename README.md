@@ -1,2 +1,2 @@
 # Trybe-Exercicios.
-Lista nova para pasta de exercícios.
+Lista de exercícios.
