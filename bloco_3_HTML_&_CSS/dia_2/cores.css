@@ -1,0 +1,35 @@
+body {
+  font-size: 16px;
+  background-color: rgb(255, 254, 254);
+}
+
+h1 {
+  font-style: sans-serif;
+  color: black;
+  font-size: 65px;
+}
+
+#fundo_Vermelho {
+  background-color: blue;
+}
+
+#exercicio {
+  color: rgb(11, 58, 42);
+}
+#amarelo {
+  color: orange;
+}
+
+.explicando_cores {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  line-height: 20px;
+  text-decoration: dashed;
+}
+
+p {
+  font-weight: 400;
+  font-size: 1em;
+  font-style: italic;
+}
