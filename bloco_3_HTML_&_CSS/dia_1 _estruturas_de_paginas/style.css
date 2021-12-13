@@ -1,0 +1,19 @@
+
+body{
+    font-family:sans-serif;
+}
+h1{
+    background-color: rgb(86, 102, 102);
+}
+p{
+    color: green;
+    font-size: 16px;
+}
+
+.trybe-green{ color: rgb(255, 255, 255);
+
+}
+
+.imagem_redonda{
+    border-radius: 50%;
+}
