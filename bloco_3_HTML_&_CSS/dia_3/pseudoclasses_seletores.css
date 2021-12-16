@@ -1,0 +1,35 @@
+
+h1, li, h2{
+    text-align: center;
+    font-size: 40px;
+}
+
+li:hover {
+    list-style-position: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(250, 248, 118, 0.767);
+    color:rgb(146, 192, 233);
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ol{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1:active{
+    color: rgb(240, 15, 15);
+    margin:35px;
+
+}
+h2{
+    margin: 50px;
+    top: 200px;
+}
