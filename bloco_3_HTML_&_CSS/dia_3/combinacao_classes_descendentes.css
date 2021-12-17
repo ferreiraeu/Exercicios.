@@ -1,0 +1,12 @@
+
+.frases{
+    background-color:yellow;
+}
+
+#frases1 {
+    color: gainsboro
+}
+
+.impar{
+    text-transform: lowercase;
+}
