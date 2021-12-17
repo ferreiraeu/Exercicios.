@@ -1,0 +1,62 @@
+
+#titulo{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+#paragrafo{
+    text-align: center;
+}
+
+
+
+#primaria1 :hover{
+    border-style: groove;
+}
+#primaria1{
+    color: green;
+    margin: 20px;
+    text-align: center;
+    font-style: italic;
+}
+
+#secundaria2 :hover{   
+    border-style: groove;
+}
+#secundaria2{
+    color: blue;
+    margin: 20px;
+    text-align: center;
+}
+#complementar3 :hover{
+    border-style: groove;
+}
+#complementar3{
+    color: greenyellow;
+    margin: 20px;
+    text-align: center;
+    border-width: 10px;
+    font-style: italic;
+}
+
+
+#escura4 :hover{
+    border-style: groove;
+}
+#escura4{
+    margin: 20px;
+    text-align: center; color: crimson;
+    text-align: center;
+
+}
+
+#clara5 :hover{
+    border-style: groove;
+}
+#clara5{
+    color:gray;
+    margin: 20px;
+    text-align: center;
+    font-style: italic;
+}
+
