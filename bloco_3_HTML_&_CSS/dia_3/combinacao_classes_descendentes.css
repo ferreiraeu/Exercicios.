@@ -1,6 +1,8 @@
 
 .frases{
     background-color:yellow;
+
+
 }
 
 #frases1 {
@@ -8,5 +10,36 @@
 }
 
 .impar{
-    text-transform: lowercase;
+    text-transform:capitalize;
+}
+.par{
+    color: green;
+}
+
+h1, h3{
+    color: red;
+}
+
+h1, em{
+    font-size: 40px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+li, em{
+    font-size: 20px;
+    font: weight 40%;;
+}
+
+.lista1{
+    color: blue;
+}
+
+.java{
+color:pink;
+}
+
+#stack:hover{ 
+    text-decoration: orange;
 }
