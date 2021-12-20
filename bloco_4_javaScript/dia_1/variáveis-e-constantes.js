@@ -9,6 +9,11 @@ let myName = "Rogério";
 let birthCity = "Salvador";
 let birthYear = 1988;
 
+//Imprimir em coluna
 console.log(myName);
 console.log(birthYear);
 console.log(birthCity);
+//imprimir em lista
+console.log(myName, birthYear, birthCity);
+
+

@@ -12,7 +12,7 @@
 -
 4 Altere o valor da nota para verificar se as condições que você implementou funcionam;*/
 
-const nota = 40;
+let nota = 80;
 
 if (nota >=80 ) {
 console.log( "Parabéns, você foi aprovado" )
