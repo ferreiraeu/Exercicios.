@@ -5,8 +5,9 @@
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 let maior = numbers[0];
 for (let i = 1; i < numbers.length; i+= 1) {
-  if (numbers[i] > maior) {
+  if (numbers[i] > maior) {  /** se ( number[i] os intens da array) são maiores que a variavel (maio  r) então declaro a variavel maior sendo: ( maior = numbers[i] então "maior" é o maior item da array */
     maior = numbers[i];
   }
 }
 console.log(maior);
+

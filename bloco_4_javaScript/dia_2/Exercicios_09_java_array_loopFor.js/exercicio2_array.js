@@ -1,3 +1,4 @@
+
 /** some todos os valores contidos no array e imprima o resultado;
 */
 let soma = 0;
