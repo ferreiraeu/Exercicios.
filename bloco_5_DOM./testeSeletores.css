@@ -1,0 +1,34 @@
+div{
+    height: 150px;
+    background-image: url(/imageens/Icone-carro-Png-1-768x768.png);
+    background-size: cover;
+    width: 200px;
+}
+
+
+.titiloDeCabeça{
+    background-color: rgb(2, 0, 0);
+    color: rgb(252, 17, 17);
+    font-family: monospace;
+    font-size: xx-large;
+}
+
+.center{
+    padding: 10px;
+    text-align: center;
+}
+
+.seleção-carro{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.carro1 {
+    margin-left: 0px;
+
+}
+
+.carro2 {
+    background-color:rgba(0, 8, 250, 0.727);
+    margin-left: 0px;
+}
