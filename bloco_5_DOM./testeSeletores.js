@@ -80,7 +80,7 @@ botao.addEventListener('click', function (event){
 
 // repare que eu coloquei o parseInt pois eu peguei a posição do carro1 de acordo com a sua posição da margem, se eu pego apenas a posição ele fica com a posição inicial e não a final.
 
-})
+});
 
 }
 
