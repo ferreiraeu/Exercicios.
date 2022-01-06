@@ -1,0 +1,51 @@
+*{ /*Zera as configurações da pagina*/
+    margin:  0px; 
+    padding: 0px;
+    box-sizing: border-box; /* Caixa fica do mesmo tamanho indepente do conteudo interno*/
+}
+
+
+
+
+body{
+color: rgb(255, 255, 255);
+background-color: rgb(214, 210, 210);
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 15px;
+}
+
+
+#cabecalho {
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color:rgb(167, 167, 167);
+    margin:0 auto 40px auto;
+
+  
+}
+
+.insere-email{
+    padding: 10px;
+    margin-top: 2px;
+}
+
+.senha{
+    display: block;
+    padding: 10px;
+}
+
+.box{
+    display: block;
+    padding: 15px;
+    color: black;
+    background-color: rgb(243, 243, 243);
+}
+
+.botao{
+    margin-top: 15px;;
+    border: 15px;
+    padding: 10px;
+
+}

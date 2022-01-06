@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercicio fixar</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="cabecalho">
+      <h1>Submeter palestra</h1>
+      <p>
+        <em>Quer palestrar em nossa conferência? Preencha o formulario.</em>
+      </p>
+    </header>
+
+    <main>
+      <form action="" method="get" class="metodo">
+        <!-- Forme get é o metodo que vai ser ultilizado para enviar para o action ( servidor) -->
+        <div class="insere-email">
+          <label for="email"></label>
+          <input type="textoEmail" name="email" id="email" placeholder="Digite seu Email" required autocomplete="off" autofocus/> Endereço de
+          e-mail:
+        </div>
+        <div class="senha">
+          <input type="password" name="senha" id="senha" placeholder="Digite sua senha" required /> Senha:
+        </div>
+
+        <div class="box">
+          <label for="box"></label>
+          <input type="checkbox" name="box" id="box"/> Lembre-me
+        </div>
+
+        <div class="botao">
+          <label for="botao"></label>
+          <button for=>Entrar</button>
+
+        </div>
+      </form>
+      <!-- Forme get é o metodo que vai ser ultilizado para enviar para o action ( servidor) -->
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
