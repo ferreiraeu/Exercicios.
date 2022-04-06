@@ -1,3 +1,2 @@
 
-                console.log('cuscus com ovo');
-                break;
+console.log(numeroMaior(respostaMinhaLista));
