@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"
+    integrity="sha512-kp7YHLxuJDJcOzStgd6vtpxr4ZU9kjn77e6dBsivSz+pUuAuMlE2UTdKB7jjsWT84qbS8kdCWHPETnP/ctrFsA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+  <div id="root"></div>
+
+  <!-- <script>
+    function ShowMessage() {
+      const divRoot = document.querySelector("#root")
+      const sectionContainer = document.createElement("section")
+      const h1El = document.createElement("h1")
+      const h2El = document.createElement("h2")
+
+      h1El.innerText = "Bem vindo Turma 20 A"
+      h2El.innerText = "Ao mundo do Frontend"
+
+      sectionContainer.appendChild(h1El)
+      sectionContainer.appendChild(h2El)
+      divRoot.appendChild(sectionContainer)
+    }
+
+    ShowMessage()
+  </script> -->
+
+  <script type="text/babel">
+    function ShowMessage() {
+      return (
+        <section>
+          <h1>Bem vindo Turma 20 A</h1>
+          <h2>Ao mundo do Frontend</h2>
+        </section>
+      )
+    }
+    ReactDOM.render(
+      <ShowMessage />,
+      document.querySelector("#root")
+    )
+  </script>
+
+</body>
+
+</html>
